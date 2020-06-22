@@ -9,6 +9,14 @@
 #ifndef solution_hpp
 #define solution_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Solution{
+public:
+    int lengthOfLongestSubstring(string s);
+};
 
 #endif /* solution_hpp */
