@@ -9,6 +9,14 @@
 #ifndef solution_hpp
 #define solution_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Solution{
+public:
+    string longestPalindrome(string s);
+};
 
 #endif /* solution_hpp */
