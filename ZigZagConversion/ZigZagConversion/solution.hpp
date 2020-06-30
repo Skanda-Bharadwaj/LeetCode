@@ -9,6 +9,13 @@
 #ifndef solution_hpp
 #define solution_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <string>
 
+using namespace std;
+
+class Solution{
+public:
+    string convert(string s, int numRows);
+};
 #endif /* solution_hpp */
