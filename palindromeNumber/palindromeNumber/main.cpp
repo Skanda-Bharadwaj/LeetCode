@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "solution.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(){
+    Solution s;
+    bool isPalindrome =  s.isPalindrome(1231);
+    
+    std::cout << isPalindrome << '\n';
     return 0;
 }

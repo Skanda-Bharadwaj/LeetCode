@@ -10,5 +10,11 @@
 #define solution_hpp
 
 #include <stdio.h>
+#include <math.h>
+
+class Solution {
+public:
+    bool isPalindrome(int x);
+};
 
 #endif /* solution_hpp */
