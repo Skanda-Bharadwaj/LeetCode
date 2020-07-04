@@ -6,10 +6,15 @@
 //  Copyright © 2020 Skanda Bharadwaj. All rights reserved.
 //
 
-#include <iostream>
+#include "solution.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    Solution s;
+    string str = "-467 why";
+    
+    int myInt = s.myAtoi(str);
+    cout << myInt << '\n';
+    
     return 0;
 }
