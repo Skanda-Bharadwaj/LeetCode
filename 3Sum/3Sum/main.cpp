@@ -6,10 +6,8 @@
 //  Copyright © 2020 Skanda Bharadwaj. All rights reserved.
 //
 
-#include <iostream>
+#include "solution.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
     return 0;
 }

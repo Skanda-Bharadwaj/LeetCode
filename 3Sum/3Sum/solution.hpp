@@ -9,6 +9,13 @@
 #ifndef solution_hpp
 #define solution_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <vector>
 
+using namespace std;
+
+class Solution{
+public:
+    vector<vector<int>> threeSum(vector<int>& nums);
+};
 #endif /* solution_hpp */

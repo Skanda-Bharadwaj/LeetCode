@@ -7,3 +7,8 @@
 //
 
 #include "solution.hpp"
+
+vector<vector<int>> Solution::threeSum(vector<int>& nums){
+    vector<vector<int>> sum3;
+    return sum3;
+}
