@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D9BDA9524B125ED006E4504 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BDA9424B125ED006E4504 /* main.cpp */; };
-		1D9BDA9D24B12604006E4504 /* solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BDA9B24B12604006E4504 /* solution.cpp */; };
+		1D179AB924B2D4B600A08EC9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D179AB824B2D4B600A08EC9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1D9BDA8F24B125ED006E4504 /* CopyFiles */ = {
+		1D179AB324B2D4B600A08EC9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1D9BDA9124B125ED006E4504 /* ContainerWithMostWater */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ContainerWithMostWater; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D9BDA9424B125ED006E4504 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1D9BDA9B24B12604006E4504 /* solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solution.cpp; sourceTree = "<group>"; };
-		1D9BDA9C24B12604006E4504 /* solution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = solution.hpp; sourceTree = "<group>"; };
+		1D179AB524B2D4B600A08EC9 /* 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3Sum; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D179AB824B2D4B600A08EC9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D9BDA8E24B125ED006E4504 /* Frameworks */ = {
+		1D179AB224B2D4B600A08EC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D9BDA8824B125ED006E4504 = {
+		1D179AAC24B2D4B600A08EC9 = {
 			isa = PBXGroup;
 			children = (
-				1D9BDA9324B125ED006E4504 /* ContainerWithMostWater */,
-				1D9BDA9224B125ED006E4504 /* Products */,
+				1D179AB724B2D4B600A08EC9 /* 3Sum */,
+				1D179AB624B2D4B600A08EC9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1D9BDA9224B125ED006E4504 /* Products */ = {
+		1D179AB624B2D4B600A08EC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D9BDA9124B125ED006E4504 /* ContainerWithMostWater */,
+				1D179AB524B2D4B600A08EC9 /* 3Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D9BDA9324B125ED006E4504 /* ContainerWithMostWater */ = {
+		1D179AB724B2D4B600A08EC9 /* 3Sum */ = {
 			isa = PBXGroup;
 			children = (
-				1D9BDA9424B125ED006E4504 /* main.cpp */,
-				1D9BDA9B24B12604006E4504 /* solution.cpp */,
-				1D9BDA9C24B12604006E4504 /* solution.hpp */,
+				1D179AB824B2D4B600A08EC9 /* main.cpp */,
 			);
-			path = ContainerWithMostWater;
+			path = 3Sum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D9BDA9024B125ED006E4504 /* ContainerWithMostWater */ = {
+		1D179AB424B2D4B600A08EC9 /* 3Sum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D9BDA9824B125ED006E4504 /* Build configuration list for PBXNativeTarget "ContainerWithMostWater" */;
+			buildConfigurationList = 1D179ABC24B2D4B600A08EC9 /* Build configuration list for PBXNativeTarget "3Sum" */;
 			buildPhases = (
-				1D9BDA8D24B125ED006E4504 /* Sources */,
-				1D9BDA8E24B125ED006E4504 /* Frameworks */,
-				1D9BDA8F24B125ED006E4504 /* CopyFiles */,
+				1D179AB124B2D4B600A08EC9 /* Sources */,
+				1D179AB224B2D4B600A08EC9 /* Frameworks */,
+				1D179AB324B2D4B600A08EC9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ContainerWithMostWater;
-			productName = ContainerWithMostWater;
-			productReference = 1D9BDA9124B125ED006E4504 /* ContainerWithMostWater */;
+			name = 3Sum;
+			productName = 3Sum;
+			productReference = 1D179AB524B2D4B600A08EC9 /* 3Sum */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1D9BDA8924B125ED006E4504 /* Project object */ = {
+		1D179AAD24B2D4B600A08EC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Skanda Bharadwaj";
 				TargetAttributes = {
-					1D9BDA9024B125ED006E4504 = {
+					1D179AB424B2D4B600A08EC9 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 1D9BDA8C24B125ED006E4504 /* Build configuration list for PBXProject "ContainerWithMostWater" */;
+			buildConfigurationList = 1D179AB024B2D4B600A08EC9 /* Build configuration list for PBXProject "3Sum" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 1D9BDA8824B125ED006E4504;
-			productRefGroup = 1D9BDA9224B125ED006E4504 /* Products */;
+			mainGroup = 1D179AAC24B2D4B600A08EC9;
+			productRefGroup = 1D179AB624B2D4B600A08EC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D9BDA9024B125ED006E4504 /* ContainerWithMostWater */,
+				1D179AB424B2D4B600A08EC9 /* 3Sum */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D9BDA8D24B125ED006E4504 /* Sources */ = {
+		1D179AB124B2D4B600A08EC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9BDA9D24B12604006E4504 /* solution.cpp in Sources */,
-				1D9BDA9524B125ED006E4504 /* main.cpp in Sources */,
+				1D179AB924B2D4B600A08EC9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1D9BDA9624B125ED006E4504 /* Debug */ = {
+		1D179ABA24B2D4B600A08EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		1D9BDA9724B125ED006E4504 /* Release */ = {
+		1D179ABB24B2D4B600A08EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		1D9BDA9924B125ED006E4504 /* Debug */ = {
+		1D179ABD24B2D4B600A08EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		1D9BDA9A24B125ED006E4504 /* Release */ = {
+		1D179ABE24B2D4B600A08EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D9BDA8C24B125ED006E4504 /* Build configuration list for PBXProject "ContainerWithMostWater" */ = {
+		1D179AB024B2D4B600A08EC9 /* Build configuration list for PBXProject "3Sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D9BDA9624B125ED006E4504 /* Debug */,
-				1D9BDA9724B125ED006E4504 /* Release */,
+				1D179ABA24B2D4B600A08EC9 /* Debug */,
+				1D179ABB24B2D4B600A08EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D9BDA9824B125ED006E4504 /* Build configuration list for PBXNativeTarget "ContainerWithMostWater" */ = {
+		1D179ABC24B2D4B600A08EC9 /* Build configuration list for PBXNativeTarget "3Sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D9BDA9924B125ED006E4504 /* Debug */,
-				1D9BDA9A24B125ED006E4504 /* Release */,
+				1D179ABD24B2D4B600A08EC9 /* Debug */,
+				1D179ABE24B2D4B600A08EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1D9BDA8924B125ED006E4504 /* Project object */;
+	rootObject = 1D179AAD24B2D4B600A08EC9 /* Project object */;
 }

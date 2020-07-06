@@ -1,8 +1,8 @@
 //
 //  solution.hpp
-//  ContainerWithMostWater
+//  integerToRoman
 //
-//  Created by Skanda Bharadwaj on 04/07/20.
+//  Created by Skanda Bharadwaj on 05/07/20.
 //  Copyright © 2020 Skanda Bharadwaj. All rights reserved.
 //
 
@@ -10,12 +10,14 @@
 #define solution_hpp
 
 #include <iostream>
-#include <vector>
+#include <math.h>
+#include <string>
 
 using namespace std;
 
 class Solution{
 public:
-    int maxArea(vector<int>& height);
+    string getRoman(int num);
+    string intToRoman(int num);
 };
 #endif /* solution_hpp */
