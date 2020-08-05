@@ -14,7 +14,7 @@ int main() {
     Solution s;
     
     ListNode* l1 = new ListNode(2);
-    ListNode* l2 = new ListNode(5);
+    ListNode* l2 = new ListNode(6);
     
     l1->next = new ListNode(4);
     l1->next->next = new ListNode(3);
