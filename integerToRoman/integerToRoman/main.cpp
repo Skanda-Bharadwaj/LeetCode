@@ -11,7 +11,7 @@
 int main() {
     
     Solution s;
-    string roman = s.intToRoman(58);
+    string roman = s.intToRoman(18);
     
     cout << roman << '\n';
     return 0;
