@@ -18,7 +18,7 @@ int main() {
     nums.push_back(0);
     nums.push_back(2);
     nums.push_back(2);
-//    nums.push_back(-4);
+    nums.push_back(-4);
     
     vector<vector<int>> res = s.threeSum(nums);
     
