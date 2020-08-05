@@ -17,7 +17,7 @@ int main(){
     nums.push_back(2);
     nums.push_back(5);
     nums.push_back(10);
-    nums.push_back(11);
+//    nums.push_back(11);
     
     int output = s.threeSumClosest(nums, 12);
     
