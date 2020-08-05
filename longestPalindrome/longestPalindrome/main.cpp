@@ -11,7 +11,7 @@
 int main(){
     
     Solution s;
-    string myString = "abacab";
+    string myString = "abacabe";
     
     string palindrome = s.longestPalindrome(myString);
     
