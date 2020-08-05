@@ -21,7 +21,7 @@ int main() {
     height.push_back(4);
     height.push_back(8);
     height.push_back(3);
-    height.push_back(7);
+//    height.push_back(7);
     
     int maxWater = s.maxArea(height);
     cout << maxWater << '\n';
