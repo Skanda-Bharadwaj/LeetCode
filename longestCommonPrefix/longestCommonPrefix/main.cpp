@@ -15,7 +15,7 @@ int main(){
     
     strs.push_back("flower");
     strs.push_back("floor");
-    strs.push_back("flight");
+    strs.push_back("flightt");
     
     string lcp = S.longestCommonPrefix(strs);
     
