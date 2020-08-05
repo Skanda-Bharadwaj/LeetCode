@@ -11,7 +11,7 @@
 int main(){
     
     Solution s;
-    vector<string> output = s.letterCombinations("2739");
+    vector<string> output = s.letterCombinations("23");
     
     for(auto &i:output)
         cout << i << '\n';
