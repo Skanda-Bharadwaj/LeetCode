@@ -10,7 +10,7 @@
 
 int main() {
     Solution s;
-    string a = "abcbeacbb";
+    string a = "abcbeacbbc";
     
     int length = s.lengthOfLongestSubstring(a);
     
